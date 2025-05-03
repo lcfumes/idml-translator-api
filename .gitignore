@@ -1,0 +1,5 @@
+.env 
+uploads
+.DS_Store 
+catalog
+node_modules
