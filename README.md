@@ -1,6 +1,10 @@
 
 # 🖋️ InDesign Project Translator API
 
+![Test](https://img.shields.io/badge/tests-passing-brightgreen)
+![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)
+![License](https://img.shields.io/badge/license-ISC-blue)
+
 A Node.js API to **automatically translate IDML files** using Azure Translator.
 
 ## 🚀 How to run the project
@@ -28,6 +32,16 @@ node server.js
 ```
 
 The server will start on the port defined in the `.env` file or, by default, on **3000**.
+
+## 🧪 How to run tests
+
+The project uses [Jest](https://jestjs.io/) for unit and integration testing.
+
+### Run all tests:
+
+```bash
+npm test
+```
 
 ---
 
